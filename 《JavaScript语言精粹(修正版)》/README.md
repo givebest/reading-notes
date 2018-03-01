@@ -948,8 +948,8 @@ String(Math.PI); // "3.141592653589793"
 var a = {member: true};
 var b = Object.create(a);
 
-a.hasOwnProperty('member); // true
-b.hasOwnProperty('member); // false
+a.hasOwnProperty('member'); // true
+b.hasOwnProperty('member'); // false
 b.member; // true
 ```
 
